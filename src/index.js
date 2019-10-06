@@ -13,7 +13,7 @@ ReactDOM.render(
       <Route path="/app" component={App} />
     </div>
   </BrowserRouter>,
-  document.getElementById("home")
+  document.getElementById("root")
 );
 
 serviceWorker.unregister();
